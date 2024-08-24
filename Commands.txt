@@ -1,0 +1,44 @@
+git init
+
+
+https://github.com/Avin-01031986/Class.git
+git remote add origin https://github.com/Avin-01031986/Class.git
+
+git push -u origin master
+
+=============================================================================
+
+https://github.com/Avin-01031986/Devops-class.git
+https://github.com/Avin-01031986/Devops-class.git
+
+===========================================================================================
+
+git -v  = to check the git version installed.
+git --h = to check all the commands used in git.
+git init = use this command when you want to give folder control to git.
+git status = to check the file is modified and and it means that there is some change in file.
+git add filename.format = to sent file to staging state as per git command flow.
+git add * = if you want to sent all files in folder to stage state.
+git commit -m "message" = to save the changes in file.
+git log = it will show log of changes in file with log id.
+
+--------------------
+Register on GitHub:
+
+git config --global user.Name "Avinash"
+git config --global user.email "avinashkumarmadan@gmail.com"
+
+git remote add origin https://github.com/Avin-01031986/Devops-class.git ==  Link local repository with GitHub URL.
+git push -u origin master = to push the file to guthub reposity.
+
+git restore --staged filename.format = to remove the file from staging stage.
+git restore filename.format = to restore the file in previous state.
+git remote -v === to check how many repository are linked on GitHub.
+git ignore == to ignore the file which we do not want to track in git. 
+(for this we need to create one .gitignore format file need to be create and all the fileformat need to be add in this file which do want to be track on git.)
+
+
+
+
+
+
