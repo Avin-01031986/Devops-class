@@ -37,7 +37,12 @@ git remote -v === to check how many repository are linked on GitHub.
 git ignore == to ignore the file which we do not want to track in git. 
 (for this we need to create one .gitignore format file need to be create and all the fileformat need to be add in this file which do want to be track on git.)
 
+---------------------------------------------------
+git branch branchname ==> to create branch into primary.
 
+git checkout branchname == to switch from one branch to other branch.
+
+git merge branchname = to merge the branch with another branch. we need to be in branch A and if we want to merger with branch B then git merge branch B.
 
 
 
